@@ -1,0 +1,91 @@
+body {
+    margin: 5px;
+    font-family: "Courier New";
+    font-size: 12px;
+    background-color: #AFAFDC;
+}
+
+table {
+	display: inline-block;
+	border : black 1px solid;
+}
+
+footer {
+    padding: 5px;
+}
+
+input[type=text] {
+    font-family: "Courier New";
+    font-size: 12px;
+	width: 50px;
+}
+
+button {
+	font-family: "Courier New";
+	font-size: 12px;
+}
+
+
+/* SVG */
+
+#mainSVG {
+	background-color: #008CE6;
+}
+
+.foret { fill: #6b8e23; }
+.colline { fill: #ff8c00; }
+.paturage { fill: #9acd32; }
+.champ { fill: #ffd700; }
+.montagne { fill: #808080; }
+.desert { fill: #f0e68c; }
+.blanc { fill: white; }
+
+.lignePort {
+	stroke: black;
+	stroke-width: 2;
+	stroke-dasharray: 2, 2;
+}
+
+.tile {
+	/* fill: none; */
+	stroke: black;
+	stroke-width: 2;
+}
+
+.jeton, .token {
+	stroke: black;
+	stroke-width: 2;
+}
+
+.num {
+	fill: red;
+	font-size: 14px;
+	font-weight: bold;
+	text-anchor: middle;
+}
+
+.portTaux {
+	fill: black;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+g text {
+	font-family: "Courier New";
+	dominant-baseline: middle;
+}
+
+.survol {
+	fill: none;
+	stroke: red;
+	stroke-width: 4;
+}
+
+path {
+	stroke:limegreen;
+	stroke-width:1.4em;
+	stroke-linecap:round;
+	fill:none;
+}
+
+
